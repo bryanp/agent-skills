@@ -14,11 +14,8 @@ Provide steps they can take to run and verify the implementation themselves
 
 Approach this like you would a presentation to your boss.
 
-# Rule: Filesystem
+# Rule: Verify Proof
 
-Proofs live in the `.agents/proofs` folder within the workspace root.
-
-# Rule: Naming Convention
-
-Capture proofs in a `{plan}/{step}.md` file corresponding to the plan
-and step you are providing proof for.
+Iterate between implementation and proof until you're sure the implementation
+is correct. Use the oracle to compare the implementation to the plan and proof
+so that the conclusion is unbiased. Err on the side of correctness!
